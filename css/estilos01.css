@@ -1,0 +1,101 @@
+div {
+    border: 1px solid black;
+    margin: 5px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+#div1 {
+    background: linear-gradient(to right, blue, white);
+}
+#div2 {
+    background: linear-gradient(to bottom, green, white);
+}
+#div3 {
+    background: linear-gradient(35deg, red, white);
+}
+#div4 {
+    background: linear-gradient(to right, blue, #00ffea, white);
+}
+#div5 {
+    background: linear-gradient(to right, red 25%, #ff5100 50%, #fbff00 75%, white 100%);
+}
+
+
+
+
+
+.ejemplo01{
+    background: linear-gradient(to left,  rgb(255, 15, 15), rgb(0, 183, 255));
+}
+
+.ejemplo02{
+    background: linear-gradient(to top, rgb(255, 217, 0), brown, red);
+}
+
+.ejemplo03{
+    background-image: linear-gradient(45deg, skyblue, rgb(94, 94, 169), blue);
+}
+
+.ejemplo04{
+    background-image: linear-gradient(to bottom, rgb(228, 80, 80) 35%, rgb(227, 227, 92) 70%, rgb(98, 98, 208) 100%);
+}
+
+.ejemplo05{
+    background-image: repeating-linear-gradient(to left, red, yellow 10%, blue 20%);
+}
+
+
+
+
+
+
+#circulo01 {
+    background: radial-gradient(blue, white);
+}
+#circulo02 {
+    background: radial-gradient(circle, green, white);
+}
+#circulo03 {
+    background: radial-gradient(circle 50px, red, white);
+}
+#circulo04 {
+    background: radial-gradient(circle 100px, blue, #00ffea, white);
+}
+#circulo05 {
+    background: radial-gradient(circle 100px, red 25%, #ff5100 50%, #fbff00 75%, white 100%);
+}
+#circulo06 {
+    background: radial-gradient(circle farthest-corner, blue 25%, #00ffea 75%, white);
+}
+#circulo07 {
+    background: radial-gradient(circle 200px at right, blue 25%, #00ffea 75%, white);
+}
+
+
+
+.circular01{
+    background: radial-gradient(circle, #dada31, #51b16e);
+}
+
+.circular02{
+    background: repeating-radial-gradient(circle, #c54747, #b5b535 10%, #5454cf 15%);
+}
+
+
+.columnas{
+    padding: 1em;
+    padding: 25px;
+    column-count: 2;
+    column-gap: 30px;
+    text-align: justify;
+    column-rule: 3px solid salmon;
+    column-width: 50px;
+}
+
+.columnas p{
+    font-size: 2rem;
+    font-family: 'AbibasMedium';
+    font-weight: normal;
+    font-style: normal;
+ }

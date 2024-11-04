@@ -1,0 +1,16 @@
+.grid-container{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr 2fr);
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;  
+    place-content: space-between space-around;  
+}
+
+.grid-container div{
+    background-color: goldenrod;
+    text-align: center;
+    color: rgb(159, 43, 43);
+    border: 1px dashed blueviolet;
+}
